@@ -15,7 +15,7 @@ class CreateUserInterestsTable extends Migration
     {
         Schema::create('user_interests', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained();
+            $table->foreignId('user_id')->constrained()->onDelete(true);
             $table->string('interest', 200);
             $table->timestamps();
         });

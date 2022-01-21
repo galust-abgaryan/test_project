@@ -160,17 +160,17 @@
 
                             <div class="app-footer-left">
                                 <ul class="nav">
-                                    TODO
+                                    Test
                                 </ul>
                             </div>
 
                             <div class="app-footer-right">
                                 <ul class="nav">
                                     <li class="nav-item">
-                                        TODO
+                                        Test
                                     </li>
                                     <li class="nav-item">
-                                        TODO
+                                        Test
                                     </li>
                                 </ul>
                             </div>

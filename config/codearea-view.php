@@ -11,13 +11,6 @@ return [
         'destroy' => [
             'icon' => 'trash',
         ],
-        'parse' => [
-            'method' => 'post',
-        ],
-        'send-email' => [
-            'icon' => 'envelope-square',
-            'label' => 'Send Email'
-        ]
     ],
     'sidebar' => [
         [
