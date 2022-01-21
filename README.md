@@ -1,9 +1,11 @@
 need run 
 
 ```
+git clone git@github.com:davitbek/test_project.git
+cd test_project
 composer install
+php -r "file_exists('.env') || copy('.env.example', '.env');"
 php artisan key:generate
-php artisan migrate --seed 
 ```
 
 set .env values
@@ -24,6 +26,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 run 
 ```
+php artisan migrate --seed 
 php artisan serve
 ```
 
