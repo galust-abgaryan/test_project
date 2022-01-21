@@ -65,56 +65,56 @@ We will achieve this result
 <br>
 Login page
 http://127.0.0.1:8000/login
-https://github.com/davitbek/test_project/tree/main/public/images/users/login.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/login.png?raw=true)
 
 Successfully Login
 http://127.0.0.1:8000/home
-https://github.com/davitbek/test_project/tree/main/public/images/users/successfully_login.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/successfully_login.png?raw=true)
 
 Users list
 http://127.0.0.1:8000/users
-https://github.com/davitbek/test_project/tree/main/public/images/users/index.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/index.png?raw=true)
 
 Users list pagination
 http://127.0.0.1:8000/users
-https://github.com/davitbek/test_project/tree/main/public/images/users/pagination.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/pagination.png?raw=true)
 
 Optimized query
 http://127.0.0.1:8000/users
-https://github.com/davitbek/test_project/tree/main/public/images/users/optimized_query.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/optimized_query.png?raw=true)
 
 Create new user
 http://127.0.0.1:8000/users/create
-https://github.com/davitbek/test_project/tree/main/public/images/users/add.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/add.png?raw=true)
 
 Create new user with validation
 http://127.0.0.1:8000/users/create
-https://github.com/davitbek/test_project/tree/main/public/images/users/add_validation.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/add_validation.png?raw=true)
 
 Edit user
 http://127.0.0.1:8000/users/1/edit
-https://github.com/davitbek/test_project/tree/main/public/images/users/edit.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/edit.png?raw=true)
 
 Edit user successfully
 http://127.0.0.1:8000/users/1/edit
-https://github.com/davitbek/test_project/tree/main/public/images/users/successfully_updated.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/successfully_updated.png?raw=true)
 
 User Show page
 http://127.0.0.1:8000/users/1
-https://github.com/davitbek/test_project/tree/main/public/images/users/show.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/show.png?raw=true)
 
 User Deletion confirmation
 http://127.0.0.1:8000/users
-https://github.com/davitbek/test_project/tree/main/public/images/users/delete_confirmation.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/users/delete_confirmation.png?raw=true)
 
 When new user create that time will be sent email.<br>
 You can edit that text also <br>
 
 http://127.0.0.1:8000/mail-templates/1/edit
-https://github.com/davitbek/test_project/tree/main/public/images/users/mail_template.png)
+![alt text](http://127.0.0.1:8000/images/users/mail_template.png?raw=true)
 
 User will be get email like this
-https://github.com/davitbek/test_project/tree/main/public/images/users/mail.png)
+![alt text](http://127.0.0.1:8000/images/users/mail.png?raw=true)
 
 
 For make new post crud with **label, content** columns  
@@ -270,7 +270,7 @@ class Post extends BaseModel
 
 Now you can access http://127.0.0.1:8000/posts, and it will be show same general index page
 
-https://github.com/davitbek/test_project/tree/main/public/images/posts/index.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/index.png?raw=true)
 
 For can add new post need fill resources/views/web/posts/partials/form.blade.php
 ```
@@ -322,13 +322,13 @@ class PostValidator extends BaseValidator
 
 for preview possible actions
 
-https://github.com/davitbek/test_project/tree/main/public/images/posts/index.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/create.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/create_with_error.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/successfully_created.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/edit.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/successfully_updated.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/show.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/delete_confirmation.png)
-https://github.com/davitbek/test_project/tree/main/public/images/posts/successfully_deleted.png)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/index.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/create.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/create_with_error.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/successfully_created.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/edit.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/successfully_updated.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/show.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/delete_confirmation.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/tree/main/public/images/posts/successfully_deleted.png?raw=true)
 
