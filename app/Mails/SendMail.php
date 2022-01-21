@@ -53,12 +53,8 @@ class SendMail extends Mailable implements ShouldQueue
         $tags = ConstMailTypeTags::getTags($this->mailTemplate->type);
         foreach ($tags as $tag => $path) {
             $value = $this->data[$path] ?? '';
-            if (!is_string($value)) {
-                if(is_array($value))  {
-                    if (!empty($value['Name'])) {
-                        $value = $value['Name'];
-                    }
-                }
+            if(is_array($value))  {
+                $value = json_encode($value);
             }
             if (!is_string($value) && !is_numeric($value)) {
                 $value = '';
