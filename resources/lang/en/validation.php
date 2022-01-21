@@ -117,7 +117,6 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute format is invalid.',
     'uuid' => 'The :attribute must be a valid UUID.',
-
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
@@ -146,6 +145,11 @@ return [
     |
     */
 
-    'attributes' => [],
-
+    'attributes' => [
+        'with' => 'This Field'
+    ],
+    'mail_template' => [
+        'required_with_tags' => 'Html must be contain one of this :tags tags',
+        'required_tags' => 'Html must be contain :tags tags'
+    ]
 ];
