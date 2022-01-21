@@ -114,10 +114,10 @@ When new user create that time will be sent email.<br>
 You can edit that text also <br>
 
 http://127.0.0.1:8000/mail-templates/1/edit
-![alt text](http://127.0.0.1:8000/images/users/mail_template.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/blob/main/public/images/users/mail_template.png?raw=true)
 
 User will be get email like this
-![alt text](http://127.0.0.1:8000/images/users/mail.png?raw=true)
+![alt text](https://github.com/davitbek/test_project/blob/main/public/images/users/mail.png?raw=true)
 
 
 For make new post crud with **label, content** columns  
