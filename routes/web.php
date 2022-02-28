@@ -25,3 +25,4 @@ Route::resource('/mail-templates', 'MailTemplateController')->only('show', 'inde
 
 
 // tmp commit
+// test
