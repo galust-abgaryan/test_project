@@ -22,7 +22,6 @@ Auth::routes(['register' => false]);
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('/users', 'UserController');
 Route::resource('/mail-templates', 'MailTemplateController')->only('show', 'index', 'edit', 'update');
-
+Route::resource('/graphik','GraphikController');
 
 // tmp commit
-// test

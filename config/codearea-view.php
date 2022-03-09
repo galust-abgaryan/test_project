@@ -26,6 +26,11 @@ return [
                     'route' => 'mail-templates.index',
                     'icon' => 'mail',
                 ],
+                [
+                    'label' => 'Graphiks',
+                    'route' => 'graphik.index',
+                    'icon' => 'check',
+                ],
             ],
         ],
     ]

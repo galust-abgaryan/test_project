@@ -6,8 +6,6 @@
 			<h1> Total {{ $items->total() }}</h1>
 			<div class="table-responsive">
 
-
-
 				<table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
 					<thead>
 					<tr>
@@ -33,7 +31,6 @@
 						<tr>
 							@foreach($paginateConfig as $config)
 								<td>
-
 									@if($config['is_html'])
 										{!! $item->{$config['attribute']} !!}
 									@else
