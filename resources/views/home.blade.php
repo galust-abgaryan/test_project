@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+    @foreach($users as  $user)
+
+        @dump($user::count())
+       {{$user['created_at']}}
+
+    @endforeach
+
 @section('content')
     <div class="wrapper">
         <canvas id='c'></canvas>
