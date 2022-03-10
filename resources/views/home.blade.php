@@ -2,9 +2,14 @@
 
     @foreach($users as  $user)
 
-        @dump($user::count())
-       {{$user['created_at']}}
+        {{--@dump($user::count())--}}
 
+
+        @if ( $user['created_at'] != " ")
+
+        {{--    {{explode(" ", $user['created_at'])}}--}}
+
+        @endif
     @endforeach
 
 @section('content')
@@ -57,9 +62,13 @@
         var oData = {
 
             "2008": 10,
-            "2009": 39.9,
+            "2009": 11,
             "2010": 17,
-            "2011": 50,
+            "2011": 30,
+            "2014": 5,
+            "2018": 25,
+            "2019": 12,
+
         };
 
         var valuesRy = [];
