@@ -1,6 +1,6 @@
 
 <div class="row">
-	<div class="col-lg-12">
+	<div class="col-lg-12" >
 		@include('partials.crud.search')
 		@if ($items->count())
 			<h1> Total {{ $items->total() }}</h1>

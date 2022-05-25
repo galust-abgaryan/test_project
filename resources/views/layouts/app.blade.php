@@ -22,6 +22,10 @@
     <link href="{{ asset('css/tinymce/tinymce.css') }}" rel="stylesheet">
     <!-- jQuery -->
     <script src="{{ asset('/template/admin/vendor/jquery/jquery.min.js') }}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/5.0.0/intro.min.js" integrity="sha512-sjzr7wOVjpnvPO03NIXQ7ah4pK1lYr1HfVPnIZ1ZSRBHgXJHWhXL/DELFN2Nnssup1KDDfIUPTtbGlS5eRUEkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/5.0.0/introjs.min.css" integrity="sha512-B5BOsh3/c3Lg0FOPf3k+DASjK21v5SpLy7IlLg3fdGnbilmT1gR2QzELRp0gvCDSG+bptATmQDNtwHyLQxnKzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/css/select2.min.css">
     @stack('css')
@@ -205,7 +209,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/js/select2.min.js"></script>
 
     <script type="text/javascript">
-        $(".dropdown-tags").select2();
+        $(".dropdown-tags").select2();\
     </script>
 </body>
 </html>

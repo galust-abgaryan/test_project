@@ -35,7 +35,7 @@ class MailTemplate extends BaseModel
      */
     protected $actions = [
         'edit',
-        'show'
+        'show',
     ];
 
     /**
@@ -44,6 +44,6 @@ class MailTemplate extends BaseModel
      */
     public function getTypeLabelAttribute()
     {
-        return humanize(ConstMailType::constants()[$this->type]);
+       // return humanize(ConstMailType::constants()[$this->type]);
     }
 }
