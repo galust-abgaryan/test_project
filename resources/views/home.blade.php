@@ -1,5 +1,4 @@
 @extends('layouts.app')
-{{--
 
     @foreach($users as  $user)
         @php
@@ -9,7 +8,6 @@
         @endphp
     @endforeach
 
---}}
 
 @section('content')
     <div id="app">
